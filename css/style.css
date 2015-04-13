@@ -1,0 +1,66 @@
+	body{
+		margin: 5%;
+		text-align: justify;
+		font-family:"Lucida Sans"
+	}
+
+/*FOR BASIC INFO */
+.TFtable1{
+		margin-left: 20%;
+		margin-right: 20%;
+		width:60%; 
+		border-collapse:collapse; 
+	}
+	
+	.TFtable1 td:nth-child(1){
+		width: 50%
+	}
+	
+	.TFtable1 td{ width: auto;
+		padding:7px; border:#4e95f4 1px solid;
+	}
+	/* provide some minimal visual accomodation for IE8 and below */
+	.TFtable1 tr{
+		background: #b8d1f3;
+	}
+	/*  Define the background color for all the ODD background rows  */
+	.TFtable1 tr:nth-child(odd){ 
+		background: #b8d1f3;
+	}
+	/*  Define the background color for all the EVEN background rows  */
+	.TFtable1 tr:nth-child(even){
+		background: #dae5f4;
+	}
+
+/*FOR SURVEY QUESTIONS */
+	.TFtable{
+		width:100%; 
+		border-collapse:collapse; 
+	}
+	
+	.TFtable td:nth-child(1){
+		width: 5%
+	}
+	
+	.TFtable td:nth-child(3){
+		width: 20%
+	}
+	
+	.TFtable td{ width: auto;
+		padding:7px; border:#4e95f4 1px solid;
+	}
+	/* provide some minimal visual accomodation for IE8 and below */
+	.TFtable tr{
+		background: #b8d1f3;
+	}
+	/*  Define the background color for all the ODD background rows  */
+	.TFtable tr:nth-child(odd){ 
+		background: #b8d1f3;
+	}
+	/*  Define the background color for all the EVEN background rows  */
+	.TFtable tr:nth-child(even){
+		background: #dae5f4;
+	}
+
+
+
